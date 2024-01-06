@@ -92,3 +92,76 @@ h1 {
     text-align: center;
     
   }
+
+  @media screen and (max-width: 600px){
+  *{
+    
+  }
+  body{
+    width: auto;
+    height: auto;
+    margin: 0;
+    padding: 1rem;
+  }
+  nav a{
+    font-size: 16px;
+  }
+
+
+  .grid{
+    grid-template-columns: 1fr;
+    padding-bottom: 3rem;
+    width: 100%;
+    margin-bottom: 2rem;
+    
+  }
+  .grid img{
+    margin: auto;
+  }
+  .grid button{
+    margin-top: 5px;
+  }
+  .title{
+    box-sizing: content-box;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  h1{
+    font-size: medium;
+    text-align: center;
+    width: 100%;
+  }
+  i{font-size: small;}
+  .galeria{
+    padding: 0;
+    margin: auto;
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
+  .galeria img{
+    margin: auto;
+  }
+  button{
+    width: auto;
+  }
+  .grid3{
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+  .grid3 img{
+    padding: 0;
+    margin: auto;
+    max-width: 320px;
+    height: auto;
+  }
+.grid3 p .grid3 h2{
+  padding: 0;
+  margin: auto;
+}
+.grid3 button{
+  width: 100%;
+margin: auto;
+}
+}
