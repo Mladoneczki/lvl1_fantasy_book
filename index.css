@@ -52,6 +52,9 @@ h1 {
     font-family: 'playitalic';
     
   }
+  .galeria a{
+    font-family: 'playitalic';
+  }
   a {
     text-decoration: none;
     text-align: center;
