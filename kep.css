@@ -1,0 +1,38 @@
+.galeria {
+}
+
+.galeria img {
+  width: 250px;
+  height: 200px;
+  border-radius: 10px;
+  align-items: center;
+}
+
+.galeria a {
+  color: red;
+  font-family: Inter;
+  text-align: center;
+  padding-bottom: 2px;
+  padding-right: 6px;
+  font-size: 16px;
+}
+
+
+.galeria a:active {
+  color: var(--active-a);
+}
+.galeria a:hover {
+  color: var(--active-a);
+}
+.grid3 {
+  display: grid;
+  flex-direction: column;
+  align-items: center;
+}
+
+.grid3 img {
+  max-width: 500px;
+  height: 370px;
+  border-radius: 12px;
+  margin-bottom: 1rem;
+}
