@@ -24,7 +24,7 @@ body {
   box-shadow: 0px 0px 30px rgb(255, 255, 255, 1);
 }
 .grid{
-    height: 4rem;
+    /* height: 4rem; */
     align-items: center;
   }
  .grid img {
@@ -123,10 +123,6 @@ h1 {
   }
   .title{
     box-sizing: content-box;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    display: grid;
-    grid-template-columns: 1fr;
   }
   h1{
     font-size: medium;
