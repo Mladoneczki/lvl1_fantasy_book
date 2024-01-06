@@ -3,7 +3,9 @@
 @import url(variables.css);
 @font-face {
   font-family: 'playfair';
-  src: url(fonts/);
+  src: url(fonts/PlayfairDisplay-VariableFont_wght.ttf);
+  font-family: 'playitalic';
+  src: url(fonts/PlayfairDisplay-Italic.ttf)
 }
 
 * {
@@ -47,6 +49,7 @@ h1 {
     align-items: center;
     margin: auto;
     padding-bottom: 2rem;
+    font-family: 'playitalic';
     
   }
   a {
