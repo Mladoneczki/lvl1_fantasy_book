@@ -1,0 +1,87 @@
+@import url(button.css);
+@import url(kep.css);
+@import url(variables.css);
+@font-face {
+  font-family: 'playfair';
+  src: url(fonts/PlayfairDisplay-VariableFont_wght.ttf);
+}
+
+* {
+  font-family:'playfair';
+}
+html {
+  align-items: center;
+  background-image: url(képek/háttér.jpg)
+}
+body {
+  display: block;
+  max-width: 1040px;
+  margin: 3rem auto;
+  padding: 6rem;
+  background-color: white;
+  box-shadow: 0px 0px 30px rgb(255, 255, 255, 1);
+}
+nav{
+    height: 4rem;
+    align-items: center;
+  }
+ nav img {
+    width: 100%;
+    height: 100%;
+    max-width: 3rem;
+    max-height: 3rem;
+  }
+  nav a {
+    font-family: var(inter);
+  }
+.title{
+    align-items: center;
+}
+h1 {
+    text-align: center;
+    
+  }
+  .title i {
+    display: block;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    padding-bottom: 2rem;
+    
+  }
+  a {
+    text-decoration: none;
+    text-align: center;
+    margin: auto;
+  }
+  a:active {
+    color: var(--active-a);
+  }
+  .grid3 {
+    text-align: center;
+  }
+  .grid3 h2{
+    padding-bottom: 3rem;
+  }
+  .grid3 h2,
+.grid3 p {
+    margin: 0;
+    text-align: justify;
+  }
+
+  .grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  }
+  .galeria{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+
+  }
+  .grid3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    text-align: center;
+    
+  }
