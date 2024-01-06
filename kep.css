@@ -1,21 +1,27 @@
 .galeria {
+  position: relative;
+  margin-bottom: 2rem;
 }
 
 .galeria img {
   width: 250px;
   height: 200px;
   border-radius: 10px;
-  align-items: center;
+  position: relative; 
 }
 
 .galeria a {
-  color: red;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  color:white;
   font-family: Inter;
   text-align: center;
   padding-bottom: 2px;
-  padding-right: 6px;
+  padding-left: 6px;
   font-size: 16px;
 }
+
 
 
 .galeria a:active {
